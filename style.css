@@ -1,0 +1,93 @@
+html{
+    background: url('./img/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: url(assets/asdfasdfsdf.png),auto;
+}
+
+.logoPrincipal{
+    margin: 0 20%;
+}
+
+.logoPrincipal>img{
+    width: 150px;
+}
+.barraNavegacion{
+    margin: 0 20%;
+    font-size: 20px;
+    
+}
+
+.barraNavegacion>ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #E4760A;
+} 
+
+.elementos-navegacion{
+    padding: 10px 20px;
+    font-size: 20px;
+
+
+}
+
+.elementos-navegacion a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.elementos-navegacion a:hover{
+    transition: 1s;
+    color: rebeccapurple;
+    text-decoration: underline #FFFFFF;
+}
+
+.contenedor-imagenesPrincipales{
+    width: 20%;
+    margin: 20px auto;
+    overflow: hidden;
+    
+}
+
+.contenedor-imagenesPrincipales ul{
+
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: slide 15s infinite alternate linear;
+}
+
+.contenedor-imagenesPrincipales li{
+    list-style: none;
+    width: 100%;
+}
+
+.contenedor-imagenesPrincipales img{
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    30% {margin-left: 0%;}
+
+    35% {margin-left: -100%;}
+    65% {margin-left: -100%;}
+
+    70% {margin-left: -200%;}
+    95% {margin-left: -200%;}
+}
+
+.texto-contenido{
+    margin: 0 20%;
+}
+
+.texto-contenido p {
+    font-size: 20px;
+    color: aliceblue;
+}
