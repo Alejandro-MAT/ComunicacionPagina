@@ -1,21 +1,27 @@
+:root{
+    --color1:#E4760A;
+    --color2:#000000;
+    --color5:#FFFFFF;
+}
+
 html{
-    background: url('./img/fondo.jpg');
-    background-position: center;
+    background: var(--color5)
+    /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    cursor: url(assets/asdfasdfsdf.png),auto;
+    cursor: url(assets/asdfasdfsdf.png),auto; */
 }
 
 .logoPrincipal{
-    margin: 0 20%;
+    margin: 0 25%;
 }
 
 .logoPrincipal>img{
     width: 150px;
 }
 .barraNavegacion{
-    margin: 0 20%;
+    margin: 0 25%;
     font-size: 20px;
     
 }
@@ -23,7 +29,7 @@ html{
 .barraNavegacion>ul {
     display: flex;
     justify-content: space-around;
-    background-color: #E4760A;
+    background-color: var(--color1)
 } 
 
 .elementos-navegacion{
@@ -35,14 +41,14 @@ html{
 
 .elementos-navegacion a{
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--color5);
 
 }
 
 .elementos-navegacion a:hover{
     transition: 1s;
     color: rebeccapurple;
-    text-decoration: underline #FFFFFF;
+    text-decoration: underline var(--color4);
 }
 
 .contenedor-imagenesPrincipales{
@@ -84,10 +90,12 @@ html{
 }
 
 .texto-contenido{
-    margin: 0 20%;
+    margin: 0 25%;
 }
 
 .texto-contenido p {
+    text-align:  justify;
     font-size: 20px;
-    color: aliceblue;
+    color: var(--color2);
+    margin-bottom: 20px;
 }
