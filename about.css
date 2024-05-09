@@ -1,0 +1,79 @@
+:root{
+    --color1:#E4760A;
+    --color2:#000000;
+    --color5:#FFFFFF;
+}
+
+html{
+    background: var(--color5)
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: url(assets/asdfasdfsdf.png),auto; */
+}
+/* logo */
+.logoPrincipal{
+    margin: 0 25%;
+}
+
+.logoPrincipal>img{
+    width: 150px;
+}
+/* barra de navegacion */
+.barraNavegacion{
+    margin: 0 25%;
+    font-size: 20px;
+    
+}
+
+.barraNavegacion>ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color1)
+} 
+
+.elementos-navegacion{
+    padding: 10px 20px;
+    font-size: 20px;
+
+
+}
+
+.elementos-navegacion a{
+    text-decoration: none;
+    color: var(--color5);
+
+}
+
+.elementos-navegacion a:hover{
+    transition: 1s;
+    color: rebeccapurple;
+    text-decoration: underline var(--color4);
+}
+/* biodata */
+.contenedor-secundario{
+    margin: 0 25%;
+}
+
+
+.contenedor-secundario h1{
+    padding: 20px;
+    font-size: 30px;
+}
+.datos-biodata{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.datos-biodata img{
+    width: 170px;
+}
+
+.informacionPersonal{
+    margin: 20px;
+}
+.nombres{
+    color: red;
+    margin: 20px;
+}
